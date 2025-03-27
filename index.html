@@ -13,6 +13,7 @@
       <div class="logo">Fatou.C</div>
       <div>
         <ul class="nav-links">
+          <li><a href="#d"onclick="scrollToNav(event)">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -41,17 +42,17 @@
         <img src="./assets/profile-pic.jpg" alt="Fatou Cissé profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
+        <p class="section__text__p1">Hello 👋🏾, I'm</p>
         <h1 class="title">Fatou</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
-          <button
+          <buttons
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')"
           >
             Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          </buttons>
+          <button class="btn btn-color-1" onclick="window.location.hash = 'contact';">
             Contact Info
           </button>
         </div>
@@ -60,13 +61,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/fatou-c-783a6a5b/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/Fatou-hub'"
           />
         </div>
       </div>
@@ -100,26 +101,28 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Développeur web Javascript/react<br/>Concepteur et Développeur d'Applications<br />MBA International Business trade</p>
+              <p class="education-text">Développeur web Javascript/react<br/>Concepteur Développeur d'Applications<br />MBA International Business trade</p>
             </div>
           </div>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
-          </div>Sc. Bachelors Degree
+            <p class="about-text">
+                Passionate front-end web developer with expertise in React, JavaScript, HTML, and CSS. 
+                Recently graduated in Application Design and Development, I've gained valuable experience as a QA Engineer as well as in full-stack development,
+                giving me a well-rounded understanding of the entire application lifecycle.<br/>
+                Curious and driven, I love tackling technical challenges and building intuitive and responsive web interfaces.<br/>
+                Always keeping up with the latest trends, I am committed to improving my skills and staying up to date with the latest developments in front-end web development. 
+                Beyond the technical side, I firmly believe in the importance of user experience and application performance, which guide my work every day.
+            
+                I'm excited to collaborate on innovative projects and contribute to solutions that shape the future of the web.
+            </p>            
+          </div>
         </div>
       </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="window.location.hash = 'experience';"
       />
     </section>
     <section id="experience">
@@ -231,7 +234,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="window.location.hash = 'projects';"
       />
     </section>
     <section id="projects">
@@ -242,7 +245,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/project-1-bis.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -257,7 +260,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://stream.42videobricks.com/cXdHTzdLRlpRa0ZqWVpDOQ==/player?autoplay=1&controls=0&loop=1&disablekb=1'"
               >
                 Live Demo
               </button>
@@ -281,7 +284,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://fatou-hub.github.io/Tic_Tac_Toe_Game/'"
               >
                 Live Demo
               </button>
@@ -295,7 +298,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project e-commerce</h2>
+            <h2 class="experience-sub-title project-title">Project e-commerce in progres...</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -305,7 +308,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Fatou-hub/vite-front-ecommerce'"
               >
                 Live Demo
               </button>
@@ -317,7 +320,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="window.location.hash = 'contact';"
       />
     </section>
     <section id="contact">
@@ -353,6 +356,12 @@
           </ul>
         </div>
       </nav>
+      <img
+        src="./assets/arrowup.png"
+        alt="Arrow icon"
+        class="icon arrowup"
+        onclick="window.location.hash = 'profile';"
+      />
       <p>Copyright &#169; 2025 Fatou Cissé. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
