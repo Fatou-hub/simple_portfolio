@@ -297,6 +297,16 @@ border-radius: 200px 200px 200px 200px;
   bottom: 2.5rem;
 }
 
+.arrowup {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 35px; /* Ajustez la taille si nécessaire */
+        height: 35px;
+        cursor: pointer;
+        z-index: 1000; /* S'assurer qu'elle est au-dessus des autres éléments */  
+  }
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -316,6 +326,16 @@ border-radius: 200px 200px 200px 200px;
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.about-text {
+    text-align: justify;
+    font-size: 1.1rem; /* Légère augmentation de la taille */
+    color: #333; /* Couleur plus douce */
+}
+
+.education-text{
+    font-size: 1.1rem; 
 }
 
 /* EXPERIENCE SECTION */
@@ -350,7 +370,7 @@ border-radius: 200px 200px 200px 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1rem;
     justify-content: space-around;
     align-items: center; /* Centrer les éléments verticalement */
   }

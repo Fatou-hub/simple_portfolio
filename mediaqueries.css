@@ -100,4 +100,13 @@
     .text-container {
       text-align: justify;
     }
+
+    .about-text {
+        text-align: justify; /* Justifie le texte pour un alignement propre */
+        margin: 20px auto; /* Ajoute de l'espace autour */
+        line-height: 1.8; /* Espacement entre les lignes pour améliorer la lisibilité */
+        max-width: 800px; /* Limite la largeur pour éviter un texte trop étalé */
+        padding: 10px 20px; /* Ajoute un peu d’espace intérieur */
+    }
+    
   }
